@@ -1,0 +1,10 @@
+Explain why each of the following courses was recommended to this user.
+
+For each course:
+1. Connect it to a specific skill or goal from the user's profile
+2. Explain the similarity score in plain language
+3. If the user has shown preference for related topics, mention that
+4. Suggest how this course fits into their overall learning journey
+
+Keep explanations concise — 2-3 sentences per course.
+Use a natural, conversational tone.

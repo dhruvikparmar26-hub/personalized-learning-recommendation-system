@@ -1,0 +1,12 @@
+Create a structured 30-day learning plan using the courses listed below.
+
+Requirements:
+1. Sequence the courses logically — prerequisites first, advanced topics later
+2. Assign specific date ranges to each course
+3. Include daily time estimates based on the user's available hours
+4. Add milestone checkpoints at Day 7, 14, 21, and 30
+5. Include brief notes on what the user should focus on in each course
+6. End with "next steps" suggestions for after the 30 days
+
+Format as a clear, scannable timeline.
+Be realistic about pacing — don't overload any single week.
