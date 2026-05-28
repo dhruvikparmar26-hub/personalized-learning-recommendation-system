@@ -1,0 +1,133 @@
+export type CourseRecord = {
+    course_id: string;
+    course_name: string;
+    university: string;
+    difficulty: 'Beginner' | 'Intermediate' | 'Advanced' | 'Mixed';
+    rating: number;
+    trending: boolean;
+    skills: string;
+    description: string;
+};
+
+export const COURSE_CATALOG: CourseRecord[] = [
+    {
+        course_id: 'python-everybody',
+        course_name: 'Python for Everybody',
+        university: 'University of Michigan',
+        difficulty: 'Beginner',
+        rating: 4.8,
+        trending: true,
+        skills: 'python, programming, loops, variables, debugging',
+        description: 'Learn Python fundamentals through practical exercises and small projects.',
+    },
+    {
+        course_id: 'sql-data-science',
+        course_name: 'SQL for Data Science',
+        university: 'UC Davis',
+        difficulty: 'Beginner',
+        rating: 4.7,
+        trending: true,
+        skills: 'sql, databases, joins, aggregation, analytics',
+        description: 'Query databases and analyze data with SQL, joins, and aggregations.',
+    },
+    {
+        course_id: 'ml-foundations',
+        course_name: 'Machine Learning Foundations',
+        university: 'Stanford University',
+        difficulty: 'Intermediate',
+        rating: 4.9,
+        trending: true,
+        skills: 'machine learning, statistics, models, features, evaluation',
+        description: 'A structured introduction to supervised learning and model evaluation.',
+    },
+    {
+        course_id: 'react-basics',
+        course_name: 'Modern React Essentials',
+        university: 'Meta',
+        difficulty: 'Intermediate',
+        rating: 4.6,
+        trending: true,
+        skills: 'javascript, react, ui, components, frontend',
+        description: 'Build interactive user interfaces with React, state, and component patterns.',
+    },
+    {
+        course_id: 'fullstack-node',
+        course_name: 'Node.js and APIs',
+        university: 'University of London',
+        difficulty: 'Intermediate',
+        rating: 4.5,
+        trending: false,
+        skills: 'javascript, node, api, backend, express',
+        description: 'Create production-ready APIs and services in Node.js.',
+    },
+    {
+        course_id: 'cloud-foundations',
+        course_name: 'Cloud Foundations',
+        university: 'Google Cloud',
+        difficulty: 'Beginner',
+        rating: 4.4,
+        trending: false,
+        skills: 'cloud, devops, deployment, infrastructure, automation',
+        description: 'Learn cloud basics, deployment workflows, and infrastructure concepts.',
+    },
+    {
+        course_id: 'data-visualization',
+        course_name: 'Data Visualization with Python',
+        university: 'Johns Hopkins University',
+        difficulty: 'Intermediate',
+        rating: 4.7,
+        trending: false,
+        skills: 'data analysis, python, charts, visualization, pandas',
+        description: 'Turn raw data into clear visuals and dashboards.',
+    },
+    {
+        course_id: 'pm-basics',
+        course_name: 'Project Management Essentials',
+        university: 'University of California, Irvine',
+        difficulty: 'Beginner',
+        rating: 4.3,
+        trending: false,
+        skills: 'project management, planning, communication, leadership',
+        description: 'Learn to plan and deliver projects with a practical framework.',
+    },
+    {
+        course_id: 'deep-learning',
+        course_name: 'Deep Learning Specialization',
+        university: 'DeepLearning.AI',
+        difficulty: 'Advanced',
+        rating: 4.9,
+        trending: true,
+        skills: 'deep learning, neural networks, tensorflow, ai, machine learning',
+        description: 'Build and train neural networks for modern AI applications.',
+    },
+    {
+        course_id: 'statistics-python',
+        course_name: 'Statistics with Python',
+        university: 'University of Michigan',
+        difficulty: 'Intermediate',
+        rating: 4.6,
+        trending: false,
+        skills: 'statistics, probability, python, analysis, hypothesis testing',
+        description: 'Use statistical thinking to make better decisions with data.',
+    },
+    {
+        course_id: 'web-fundamentals',
+        course_name: 'Web Development Fundamentals',
+        university: 'University of Helsinki',
+        difficulty: 'Beginner',
+        rating: 4.5,
+        trending: true,
+        skills: 'html, css, javascript, frontend, web',
+        description: 'A practical introduction to building modern websites.',
+    },
+    {
+        course_id: 'data-engineering',
+        course_name: 'Data Engineering Basics',
+        university: 'IBM',
+        difficulty: 'Intermediate',
+        rating: 4.4,
+        trending: false,
+        skills: 'sql, pipelines, etl, data engineering, cloud',
+        description: 'Learn the basics of pipelines, warehousing, and data operations.',
+    },
+];
